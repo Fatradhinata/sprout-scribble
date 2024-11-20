@@ -1,3 +1,4 @@
+import Link from "@/node_modules/next/link";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -28,6 +29,16 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav>
+          <ul className="flex justify-evenly p-5 bg-green-400">
+            <li>
+              <Link href={"/"}>Home</Link>
+              </li>
+            <li>
+              <Link href="/about">About</Link>
+              </li>
+          </ul>
+        </nav>
         {children}
       </body>
     </html>
