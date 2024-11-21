@@ -8,6 +8,13 @@
       "when": 1729654344712,
       "tag": "0000_cultured_red_hulk",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1732158758503,
+      "tag": "0001_colorful_captain_cross",
+      "breakpoints": true
     }
   ]
 }
